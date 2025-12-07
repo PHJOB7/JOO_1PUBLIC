@@ -1,0 +1,150 @@
+/* Copied styles from the dynamic version. */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background: #f9f9fb;
+  color: #333;
+  padding: 0 1rem;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.6rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #eee;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background: #444;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+h2 {
+  color: #222;
+  margin-top: 0;
+}
+
+h3 {
+  color: #444;
+  margin-top: 1.5rem;
+}
+
+.resource-list {
+  padding-left: 1.2rem;
+}
+
+.resource-list li {
+  margin-bottom: 1rem;
+}
+
+.resource-list a {
+  color: #0069c0;
+}
+
+.resource-list a:hover {
+  text-decoration: underline;
+}
+
+.contribution-form {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contribution-form label {
+  display: block;
+  margin: 0.5rem 0 0.2rem;
+  font-weight: bold;
+}
+
+.contribution-form span {
+  color: #c00;
+}
+
+.contribution-form input[type="text"],
+.contribution-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contribution-form button {
+  margin-top: 0.8rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background: #0069c0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contribution-form button:hover {
+  background: #004f8a;
+}
+
+.contributions {
+  list-style: none;
+  padding: 0;
+}
+
+.contribution-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contribution-item h4 {
+  margin: 0 0 0.5rem;
+  color: #222;
+}
+
+.contribution-item .author {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #666;
+}
+
+footer {
+  background: #222;
+  color: #ccc;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+  margin-top: 2rem;
+}
